@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[(cond (${1:predicate1} ${2:consequent1})
+      (${3:predicate2} ${4:consequent2}))]]></content>
+    <tabTrigger>cond</tabTrigger>
+    <scope>source.scheme</scope>
+    <description>cond</description>
+</snippet>
