@@ -6,11 +6,7 @@
 	<string></string>
 	<key>fileTypes</key>
 	<array>
-		<string>scheme</string>
-		<string>cl</string>
-		<string>l</string>
-		<string>mud</string>
-		<string>el</string>
+		<string>scm</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>\(</string>
@@ -102,13 +98,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>\*|\/|\-|\+|=|&lt;|&gt;</string>
+			<key>name</key>
+			<string>keyword.operator.scheme</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\b(?i:null|nil)\b</string>
 			<key>name</key>
 			<string>constant.language.scheme</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn)\b</string>
+			<string>\b(?i:cons|car|cdr|cond|define|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn)\b</string>
 			<key>name</key>
 			<string>support.function.scheme</string>
 		</dict>
